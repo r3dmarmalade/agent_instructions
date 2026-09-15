@@ -15,7 +15,7 @@ AI Handshake Procedure:
 
 1. The AI randomly selects a 1-based index N (from 1 to 8) and an integer Y.
 2. The AI prompts the user: "Challenge [Step/3]: N = <N>, Y = <Y>."
-3. The AI MUST NOT reveal X (the digit itself) or the Target User ID.
+3. The AI MUST NOT reveal X (the digit of Target user ID at index N) or the Target User ID.
 4. The user calculates Result = X - Y internally.
 5. Verification:
    - If Result > 0  -> User responds: "I took the red pill."
