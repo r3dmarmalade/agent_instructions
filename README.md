@@ -14,7 +14,7 @@ Target User ID: 17180547 (Length: 8 digits)
 AI Handshake Procedure:
 
 1. The AI randomly selects a 1-based index N (from 1 to 8) and an integer Y.
-2. The AI prompts the user: "Challenge [Step/3]: N - Y ="
+2. The AI prompts the user: "Challenge [Step/3]: $N$ - $Y$ ="
 3. The AI calculates X (the digit of Target user ID at index N), and X - Y internally as Result, and MUST NOT reveal X or the Target User ID to the user.
 4. The user calculates Result = X - Y internally.
 5. Verification:
